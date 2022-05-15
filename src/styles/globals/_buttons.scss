@@ -1,0 +1,11 @@
+@import './variables';
+@import '/src/styles/globals/utilities';
+
+button {
+    padding: 9px 12px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
