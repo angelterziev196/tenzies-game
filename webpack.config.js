@@ -46,7 +46,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
 
-    entry: ['./src/App.jsx'],
+    entry: ['./src/Index.jsx'],
     output: {
         assetModuleFilename: 'images/[hash][ext][query]',
         path: path.resolve(__dirname, 'dist'),
